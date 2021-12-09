@@ -1,0 +1,57 @@
+{
+  "name": "sample-project",
+  "version": "1.6.1",
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "files": [
+    "build"
+  ],
+  "types": "build/index.d.ts",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "React",
+    "Typescript",
+    "Tailwind",
+    "Storybook"
+  ],
+  "author": "Sachin Mour",
+  "license": "MIT",
+  "peerDependencies": {
+    "clsx": "^1.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.5.0-alpha.3",
+    "@storybook/manager-webpack5": "^6.5.0-alpha.3",
+    "@storybook/react": "^6.4.9",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-react-app": "^10.0.0",
+    "clsx": "^1.1.1",
+    "colors": "^1.4.0",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "lint-staged": "^12.1.2",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^12.4.0",
+    "tailwindcss": "^3.0.0",
+    "typescript": "^4.5.2",
+    "webpack": "^5.65.0"
+  }
+}

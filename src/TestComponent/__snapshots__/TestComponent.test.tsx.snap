@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Component should have primary className with default props 1`] = `
+<div
+  class="border border-black border-solid p-4 w-96 text-center bg-white text-black"
+  data-testid="test-component"
+>
+  <h1
+    class="text-3xl"
+  >
+    I'm the test component
+  </h1>
+  <h2>
+    Made with love by Harvey
+  </h2>
+</div>
+`;
+
+exports[`Test Component should have secondary className with theme set as secondary 1`] = `
+<div
+  class="border border-black border-solid p-4 w-96 text-center bg-black text-white"
+  data-testid="test-component"
+>
+  <h1
+    class="text-3xl"
+  >
+    I'm the test component
+  </h1>
+  <h2>
+    Made with love by Harvey
+  </h2>
+</div>
+`;
